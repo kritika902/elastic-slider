@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:palevioletred ;
+}
+#image1{
+    background-image: url(anime-anime-girls-digital-art-artwork-vertical-hd-wallpaper-preview.jpg);
+}#image2{
+    background-image: url(download.jpg);
+}
+#image3{
+    background-image: url(Fruits_Basket_2019_Poster_3.webp);
+}
+#image4{
+    background-image: url(HD-wallpaper-tomoe-anime-cat-ears-fox-hajimemashita-kamisama-kiss-nanami-neko.jpg);
+}
+#image5{
+    background-image: url(HD-wallpaper-anime-boy-anime-boy-anime-boys-cute-cute-anime-boy-cute-anime-boys-lonely-sad-anime-boy-sad-anime-boys-thumbnail.jpg);
+}
+.hero.elastic-slider{
+    cursor: grab;
+    width:800px;
+    height: 600px;
+
+}
+.hero.elastic-slider div{
+    background-size: cover;
+    background-position: center;
+}
